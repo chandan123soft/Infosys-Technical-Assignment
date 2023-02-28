@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="cucumber_bdd.StepDefinition">
+        <methods>
+          <include name="tearDown"/>
+          <include name="enter_the_current_home_loan_monthly_repayments"/>
+          <include name="enter_the_other_monthly_commitments"/>
+          <include name="initializeBrowser"/>
+          <include name="enter_only_1_for_living_expenses"/>
+          <include name="enter_the_monthly_living_expenses"/>
+          <include name="enter_the_other_loan_monthly_repayments"/>
+          <include name="enter_the_other_income"/>
+          <include name="enter_the_total_credit_card_limits"/>
+        </methods>
+      </class> <!-- cucumber_bdd.StepDefinition -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
